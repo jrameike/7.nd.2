@@ -1,0 +1,114 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+/* body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+} */
+
+* body {
+  background: lightgrey;
+  font-family: @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+  font-size: 16px;
+  padding: 20px;
+}
+
+h1 {
+  color: #0974b3;
+}
+
+h4 {
+  float: none;
+  color: #666;
+}
+
+.hyperlink {
+  color: blue;
+
+}
+
+.italic {
+  font-family: Italic;
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 0 auto;
+  margin: 0 auto;
+}
+
+.isaac {
+  height: 300px;
+  width: 1000px;
+  background-color: white;
+  padding: none;   /* Medium blue */
+}
+
+.isaac img {
+  float: left;
+}
+
+.albert {
+  float: left;
+  width: 500px;
+  height: 400px;
+  background-color: white;    /* Red */
+}
+
+.nicola {
+  float: left;
+  width: 500px;
+  height: 400px;
+  background-color: white;    /* Red */
+}
+
+.content {
+  height: 500px;
+  background-color: #F5CF8E;    /* Yellow */
+}
+
+.albert img {
+  float: left;
+  width: 150px;
+  max-width: 100px;
+  background-color: skyblue;
+}
+
+.nicola img {
+  float: left;
+  width:150px;
+  max-width: 100px;
+  background-color: skyblue;
+}
+
+p {
+  display: unset;
+  float: left;
+}
+
+h6::before {
+  content: "absolute";
+  position: relative;
+  transform: translateY(50px);
+  width: 10%;
+  height: 1px;
+  color: blue;
+  background: blue;
+}
+
+h1:hover::before {
+  color: white;
+  transform: translateX(px) translateY(50px);
+}
